@@ -1,4 +1,4 @@
-module github.com/thanhtuan260593
+module github.com/thanhtuan260593/todo
 
 go 1.14
 

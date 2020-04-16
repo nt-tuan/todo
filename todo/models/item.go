@@ -4,8 +4,9 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
+//Item of to-do list
 type Item struct {
 	gorm.Model
-	Title  String `json:"title"`
+	Title  string `json:"title"`
 	IsDone bool   `json:"is_done"`
 }
