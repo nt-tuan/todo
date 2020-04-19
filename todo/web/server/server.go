@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/thanhtuan260593/todo/config"
+	"github.com/thanhtuan260593/todo/web/config"
 	"github.com/thanhtuan260593/todo/web/handler"
 )
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/thanhtuan260593/todo/server"
+	"github.com/thanhtuan260593/todo/web/server"
 )
 
 func main() {
