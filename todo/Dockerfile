@@ -3,7 +3,7 @@ FROM golang:latest AS builder
 ENV GO111MODULE=on
 
 # Download modules
-WORKDIR $GOPATH/src/github.com/nguyenhuedang/todo
+WORKDIR $GOPATH/src/github.com/thanhtuan260593/todo
 COPY go.mod go.sum ./
 RUN go mod download
 

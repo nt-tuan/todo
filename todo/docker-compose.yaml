@@ -1,0 +1,18 @@
+version: '3'
+services:
+  todo:
+    ports:
+      - 5000:5000
+    build: .
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://tuannt:@db:5432/training_db?sslmode=disable
+
+  db:
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB : training_db
+      POSTGRES_USER : tuannt   
+    image: postgres:11.2-alpine
